@@ -30,7 +30,6 @@ class LinkedList():
       print(cn.data)
       ind+=1
   print('element not found')
-
 ll=LinkedList(10)
 ll.add(20)
 ll.add(30)
@@ -40,7 +39,6 @@ class Node:
   def __init__(self,data):
     self.data=data
     self.next=None
-
 class LinkedList():
   def __init__(self):
     self.head=None
@@ -98,7 +96,6 @@ class LinkedList():
       cN=cN.next
     cN.next=None
     self.size-=1
-
 ll=LinkedList()
 ll.add(10)
 ll.add(20)
